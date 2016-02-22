@@ -1,0 +1,178 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+ <!--主页边上-->
+<div id="main-slide" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+        <li data-target="#main-slide" data-slide-to="1"></li>
+        <li data-target="#main-slide" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img class="img-responsive" src="~/images/slider/bg1.jpg" alt="slider">
+            <div class="slider-content">
+                <div class="col-md-12 text-center">
+                    <h2>Welcome to <span class="logo">Fabrica</span></h2>
+                    <h3>Your Creative Business Partner</h3>
+                    <p><a href="about.html" class="slider btn">Read More</a> </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="img-responsive" src="~/images/slider/bg2.jpg" alt="slider">
+            <div class="slider-content">
+                <div class="col-md-12 text-center">
+                    <h2><strong>Responsive</strong> Design</h2>
+                    <h3>Responsive, Easy to Customize and Ready for Your Business</h3>
+                    <p><a href="portfolio.html" class="slider btn">View Portfolio</a> </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="img-responsive" src="~/images/slider/bg3.jpg" alt="slider">
+            <div class="slider-content">
+                <div class="col-md-12 text-center">
+                    <h2><strong>Easy</strong> to Customize</h2>
+                    <h3>Responsive, Easy to Customize and Ready for Your Business</h3>
+                    <p><a href="portfolio.html" class="slider btn">View Portfolio</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#main-slide" data-slide="prev"> <span><i class="fa fa-angle-left"></i></span> </a> <a class="right carousel-control" href="#main-slide" data-slide="next"> <span><i class="fa fa-angle-right"></i></span> </a>
+</div>
+
+<section id="feature">
+    <div class="container">
+        <div class="center">
+            <h2>Featured Services</h2>
+            <hr>
+            <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum. Nunc quis semper sem.<br>
+                Morbi libero elit elementum quis faucibus ac, condimentum quis nibh. <a href="services.html">View all Services →</a>
+            </p>
+        </div>
+        <div class="row">
+            <div class="features">
+                <div class="col-md-4 col-sm-6">
+                    <div class="feature-wrap">
+                        <i class="fa fa-laptop"></i>
+                        <h2>Web Design</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique.</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="feature-wrap">
+                        <i class="fa fa-code"></i>
+                        <h2>Development</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique.</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="feature-wrap">
+                        <i class="fa fa-bullhorn"></i>
+                        <h2>Marketing</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="recent-works">
+    <div class="container">
+        <div class="center">
+            <h2>Recent Works</h2>
+            <hr>
+            <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum. Nunc quis semper sem.<br>
+                Morbi libero elit elementum quis faucibus ac, condimentum quis nibh. <a href="portfolio.html" class="readmore">View all Works →</a>
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="~/images/portfolio/small/item1.jpg" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="#">Project Title</a> </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
+                            <a class="preview" href="~/images/portfolio/full/item1.jpg" rel="prettyPhoto" title=""><i class="fa fa-search"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="~/images/portfolio/small/item2.jpg" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="#">Project Title</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
+                            <a class="preview" href="~/images/portfolio/full/item2.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="~/images/portfolio/small/item3.jpg" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="#">Project Title</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
+                            <a class="preview" href="~/images/portfolio/full/item3.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="~/images/portfolio/small/item4.jpg" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="#">Project Title</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
+                            <a class="preview" href="~/images/portfolio/full/item4.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="~/images/portfolio/small/item5.jpg" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="#">Project Title</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
+                            <a class="preview" href="~/images/portfolio/full/item5.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="~/images/portfolio/small/item6.jpg" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="#">Project Title</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
+                            <a class="preview" href="~/images/portfolio/full/item6.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="copyrights">Technology by <a href="http://www.cssmoban.com/">零壹工作室</a></div>
+@Html.Partial("~/Views/Shared/TestimonialsPartial.cshtml");
+@Html.Partial("~/Views/Shared/MiddlePartial.cshtml");
+@Html.Partial("~/Views/Shared/GetStartPartial.cshtml");
+

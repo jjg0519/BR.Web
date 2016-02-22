@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/index.css" rel="stylesheet" />
+<link href="~/Scripts/uploadify/uploadify.css" rel="stylesheet" />
+<script src="~/Scripts/uploadify/1.8.3-jquery.min.js"></script>
+<script src="~/Scripts/uploadify/jquery.uploadify-3.1.js"></script>
+
+
+
+
+<div class="tab_con_con" style="display: block;">
+  
+    <div class="det_img">
+        <p>
+            图片切换：
+        </p>
+        <ul class="img_ul">
+            <li>
+                <div class="left_img">
+                    <img src="lineImg/151/151_150030110047.jpg" id="imgQH1" hdt="lineImg/151/151_150030110047.jpg">
+                </div>
+                <div class="r_img_box">
+                    <p>
+                        <div id="uploadQh1" class="uploadify" style="height: 24px; width: 54px;">
+                        <object id="SWFUpload_23" type="application/x-shockwave-flash" data="~/Scripts/uploadify/uploadify.swf?preventswfcaching=1455773281646" width="54" height="24" class="swfupload" style="position: absolute; z-index: 1;">
+                            <param name="wmode" value="transparent">
+                            <param name="movie" value="~/Scripts/uploadify/uploadify.swf?preventswfcaching=1455773281646">
+                            <param name="quality" value="high">
+                            <param name="menu" value="false">
+                            <param name="allowScriptAccess" value="always">
+                            <param name="flashvars" value="movieName=SWFUpload_23&amp;uploadURL=HomeEdit/UploadImage;">
+                            @*<param name=" flashvars" value="movieName=SWFUpload_23&amp;uploadURL=HomeEdit/UploadImage;useQueryString=false&amp;requeueOnError=false&amp;httpSuccess=&amp;assumeSuccessTimeout=30&amp;params=&amp;filePostName=Filedata&amp;fileTypes=*.gif%3B%20*.jpg%3B%20*.png&amp;fileTypesDescription=Image%20Files&amp;fileSizeLimit=0&amp;fileUploadLimit=0&amp;fileQueueLimit=999&amp;debugEnabled=false&amp;buttonImageURL=%2FTravelContent%2F&amp;buttonWidth=54&amp;buttonHeight=24&amp;buttonText=&amp;buttonTextTopPadding=0&amp;buttonTextLeftPadding=0&amp;buttonTextStyle=color%3A%20%23000000%3B%20font-size%3A%2016pt%3B&amp;buttonAction=-100&amp;buttonDisabled=false&amp;buttonCursor=-2">*@
+                            </object>
+                        <div id="uploadQh1-button" class="uploadify-button " style="height: 24px; line-height: 24px; width: 54px;">
+                            <span class="uploadify-button-text"></span>
+                            </div>
+                        </div>
+                        <div id="uploadQh1-queue" class="uploadify-queue"></div><span>图片尺寸600*400</span><br>
+                        <textarea name="txtQHDis1" id="txtQHDis1">约旦</textarea>
+                    </p>
+                </div>
+            </li>
+            @*<li>
+                <div class="left_img">
+                    <img src="lineImg/151/151_150230110207.jpg" id="imgQH2" hdt="lineImg/151/151_150230110207.jpg">
+                </div>
+                <div class="r_img_box">
+                    <p>
+                        <div id="uploadQh2" class="uploadify" style="height: 24px; width: 54px;"><object id="SWFUpload_24" type="application/x-shockwave-flash" data="~/Scripts/uploadify/uploadify.swf?preventswfcaching=1455773281646" width="54" height="24" class="swfupload" style="position: absolute; z-index: 1;"><param name="wmode" value="transparent"><param name="movie" value="~/Scripts/uploadify/uploadify.swf?preventswfcaching=1455773281646"><param name="quality" value="high"><param name="menu" value="false"><param name="allowScriptAccess" value="always"><param name="flashvars" value="movieName=SWFUpload_24&amp;uploadURLHomeEdit/UploadImage;useQueryString=false&amp;requeueOnError=false&amp;httpSuccess=&amp;assumeSuccessTimeout=30&amp;params=&amp;filePostName=Filedata&amp;fileTypes=*.gif%3B%20*.jpg%3B%20*.png&amp;fileTypesDescription=Image%20Files&amp;fileSizeLimit=0&amp;fileUploadLimit=0&amp;fileQueueLimit=999&amp;debugEnabled=false&amp;buttonImageURL=%2FTravelContent%2F&amp;buttonWidth=54&amp;buttonHeight=24&amp;buttonText=&amp;buttonTextTopPadding=0&amp;buttonTextLeftPadding=0&amp;buttonTextStyle=color%3A%20%23000000%3B%20font-size%3A%2016pt%3B&amp;buttonAction=-100&amp;buttonDisabled=false&amp;buttonCursor=-2"></object><div id="uploadQh2-button" class="uploadify-button " style="height: 24px; line-height: 24px; width: 54px;"><span class="uploadify-button-text"></span></div></div><div id="uploadQh2-queue" class="uploadify-queue"></div><span>图片尺寸600*400</span><br>
+                        <textarea name="txtQHDis2" id="txtQHDis2">死海</textarea>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="left_img">
+                    <img src="lineImg/151/151_150330110336.jpg" id="imgQH3" hdt="lineImg/151/151_150330110336.jpg">
+                </div>
+                <div class="r_img_box">
+                    <p>
+                        <div id="uploadQh3" class="uploadify" style="height: 24px; width: 54px;"><object id="SWFUpload_25" type="application/x-shockwave-flash" data="~/Scripts/uploadify/uploadify.swf?preventswfcaching=1455773281646" width="54" height="24" class="swfupload" style="position: absolute; z-index: 1;"><param name="wmode" value="transparent"><param name="movie" value="~/Scripts/uploadify/uploadify.swf?preventswfcaching=1455773281646"><param name="quality" value="high"><param name="menu" value="false"><param name="allowScriptAccess" value="always"><param name="flashvars" value="movieName=SWFUpload_25&amp;uploadURL=HomeEdit/UploadImage;useQueryString=false&amp;requeueOnError=false&amp;httpSuccess=&amp;assumeSuccessTimeout=30&amp;params=&amp;filePostName=Filedata&amp;fileTypes=*.gif%3B%20*.jpg%3B%20*.png&amp;fileTypesDescription=Image%20Files&amp;fileSizeLimit=0&amp;fileUploadLimit=0&amp;fileQueueLimit=999&amp;debugEnabled=false&amp;buttonImageURL=%2FTravelContent%2F&amp;buttonWidth=54&amp;buttonHeight=24&amp;buttonText=&amp;buttonTextTopPadding=0&amp;buttonTextLeftPadding=0&amp;buttonTextStyle=color%3A%20%23000000%3B%20font-size%3A%2016pt%3B&amp;buttonAction=-100&amp;buttonDisabled=false&amp;buttonCursor=-2"></object><div id="uploadQh3-button" class="uploadify-button " style="height: 24px; line-height: 24px; width: 54px;"><span class="uploadify-button-text"></span></div></div><div id="uploadQh3-queue" class="uploadify-queue"></div><span>图片尺寸600*400</span><br>
+                        <textarea name="txtQHDis3" id="txtQHDis3">大卫王墓</textarea>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="left_img">
+                    <img src="lineImg/151/151_150630110617.jpg" id="imgQH4" hdt="lineImg/151/151_150630110617.jpg">
+                </div>
+                <div class="r_img_box">
+                    <p>
+                        <div id="uploadQh4" class="uploadify" style="height: 24px; width: 54px;"><object id="SWFUpload_26" type="application/x-shockwave-flash" data="~/Scripts/uploadify/uploadify.swf?preventswfcaching=1455773281646" width="54" height="24" class="swfupload" style="position: absolute; z-index: 1;"><param name="wmode" value="transparent"><param name="movie" value="~/Scripts/uploadify/uploadify.swf?preventswfcaching=1455773281646"><param name="quality" value="high"><param name="menu" value="false"><param name="allowScriptAccess" value="always"><param name="flashvars" value="movieName=SWFUpload_26&amp;uploadURL=HomeEdit/UploadImage;useQueryString=false&amp;requeueOnError=false&amp;httpSuccess=&amp;assumeSuccessTimeout=30&amp;params=&amp;filePostName=Filedata&amp;fileTypes=*.gif%3B%20*.jpg%3B%20*.png&amp;fileTypesDescription=Image%20Files&amp;fileSizeLimit=0&amp;fileUploadLimit=0&amp;fileQueueLimit=999&amp;debugEnabled=false&amp;buttonImageURL=%2FTravelContent%2F&amp;buttonWidth=54&amp;buttonHeight=24&amp;buttonText=&amp;buttonTextTopPadding=0&amp;buttonTextLeftPadding=0&amp;buttonTextStyle=color%3A%20%23000000%3B%20font-size%3A%2016pt%3B&amp;buttonAction=-100&amp;buttonDisabled=false&amp;buttonCursor=-2"></object><div id="uploadQh4-button" class="uploadify-button " style="height: 24px; line-height: 24px; width: 54px;"><span class="uploadify-button-text"></span></div></div><div id="uploadQh4-queue" class="uploadify-queue"></div><span>图片尺寸600*400</span><br>
+                        <textarea name="txtQHDis4" id="txtQHDis4">西墙</textarea>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="left_img">
+                    <img src="lineImg/151/151_150830110833.jpg" id="imgQH5" hdt="lineImg/151/151_150830110833.jpg">
+                </div>
+                <div class="r_img_box">
+                    <p>
+                        <div id="uploadQh5" class="uploadify" style="height: 24px; width: 54px;"><object id="SWFUpload_27" type="application/x-shockwave-flash" data="~/Scripts/uploadify/uploadify.swf?preventswfcaching=1455773281646" width="54" height="24" class="swfupload" style="position: absolute; z-index: 1;"><param name="wmode" value="transparent"><param name="movie" value="~/Scripts/uploadify/uploadify.swf?preventswfcaching=1455773281646"><param name="quality" value="high"><param name="menu" value="false"><param name="allowScriptAccess" value="always"><param name="flashvars" value="movieName=SWFUpload_27&amp;uploadURL=HomeEdit/UploadImage;useQueryString=false&amp;requeueOnError=false&amp;httpSuccess=&amp;assumeSuccessTimeout=30&amp;params=&amp;filePostName=Filedata&amp;fileTypes=*.gif%3B%20*.jpg%3B%20*.png&amp;fileTypesDescription=Image%20Files&amp;fileSizeLimit=0&amp;fileUploadLimit=0&amp;fileQueueLimit=999&amp;debugEnabled=false&amp;buttonImageURL=%2FTravelContent%2F&amp;buttonWidth=54&amp;buttonHeight=24&amp;buttonText=&amp;buttonTextTopPadding=0&amp;buttonTextLeftPadding=0&amp;buttonTextStyle=color%3A%20%23000000%3B%20font-size%3A%2016pt%3B&amp;buttonAction=-100&amp;buttonDisabled=false&amp;buttonCursor=-2"></object><div id="uploadQh5-button" class="uploadify-button " style="height: 24px; line-height: 24px; width: 54px;"><span class="uploadify-button-text"></span></div></div><div id="uploadQh5-queue" class="uploadify-queue"></div><span>图片尺寸600*400</span><br>
+                        <textarea name="txtQHDis5" id="txtQHDis5">圣墓教堂</textarea>
+                    </p>
+                </div>
+            </li>*@
+        </ul>
+       
+    </div>
+</div>
+
+
+
+

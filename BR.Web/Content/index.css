@@ -1,0 +1,25 @@
+﻿.tab_con_con {
+/*background: #dfe9ee;*/
+width: 100%;
+}
+
+.img_ul {
+border-bottom: 1px dashed #666;
+padding-bottom: 30px;
+overflow: hidden;
+padding-left: 30px;
+}
+
+.index_img ul li {
+float: left;
+width: auto;
+margin-top: 48px;
+margin-right: 100px;
+}
+
+.img_ul li {
+overflow: hidden;
+float: left;
+margin-right: 42px;
+margin-top: 20px;
+}
